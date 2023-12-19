@@ -44,11 +44,11 @@
             // 
             button1.BackColor = Color.DarkTurquoise;
             button1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(12, 340);
+            button1.Location = new Point(15, 351);
             button1.Name = "button1";
             button1.Size = new Size(202, 72);
             button1.TabIndex = 0;
-            button1.Text = "Add Button";
+            button1.Text = "Add Student";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -56,7 +56,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(267, 9);
+            label1.Location = new Point(289, 9);
             label1.Name = "label1";
             label1.Size = new Size(244, 35);
             label1.TabIndex = 1;
@@ -124,7 +124,7 @@
             dataGridView1.Location = new Point(243, 78);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(545, 334);
+            dataGridView1.Size = new Size(543, 345);
             dataGridView1.TabIndex = 9;
             // 
             // Welcome
@@ -132,7 +132,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PaleTurquoise;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(817, 455);
             Controls.Add(dataGridView1);
             Controls.Add(txtConfirmPassword);
             Controls.Add(txtPhone);
